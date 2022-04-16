@@ -1,0 +1,9 @@
+spring:
+  h2:
+    console:
+      enabled: true
+
+twilio:
+  account_sid: AC8775762fcb8e77778410968b467a152d
+  auth_token: bd5c2bf5c41bc460b407ad35a7891155
+  service_id: VAb9b53d0eb43d2f6d34efa77b1f23f479
