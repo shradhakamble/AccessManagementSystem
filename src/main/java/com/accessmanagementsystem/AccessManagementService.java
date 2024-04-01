@@ -25,12 +25,12 @@ public class AccessManagementService {
         //orgID of Service User is handled under username field while storing in the db
         List<DBUsers> users = new ArrayList<DBUsers>() {{
             add(new DBUsers(
-                    "shradha",                          // username
-                    "shra@123",                         // Password
-                    "shradhakamble1808@gmail.com",      // Email
+                    "username",                          // username
+                    "password",                         // Password
+                    "email",      // Email
                     "superadmin",                       // permission / role type
                     UserType.CUSTOMER,                  // User Type
-                    "+919175060480"                     // phone number
+                    "phonenumber"                     // phone number
             ));
             add(new DBUsers(
                     "ams1",                             // organizationID
