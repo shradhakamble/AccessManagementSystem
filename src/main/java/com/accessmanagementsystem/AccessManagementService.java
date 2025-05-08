@@ -42,7 +42,7 @@ public class AccessManagementService {
             ));
             add(new DBUsers(
                 "test",                             // organizationID
-                "test@123",                         // Password
+                "test@1234",                         // Password
                 "test@gmail.com",                   // Email
                 "basic",                            // permission / role type
                 UserType.SERVICE_USER,              // User Type
