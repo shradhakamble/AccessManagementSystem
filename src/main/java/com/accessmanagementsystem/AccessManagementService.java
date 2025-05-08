@@ -40,6 +40,14 @@ public class AccessManagementService {
                     UserType.SERVICE_USER,              // User Type
                     ""                                  // phone number
             ));
+            add(new DBUsers(
+                "test",                             // organizationID
+                "test@123",                         // Password
+                "test@gmail.com",                   // Email
+                "basic",                            // permission / role type
+                UserType.SERVICE_USER,              // User Type
+                ""                                  // phone number
+            ));
         }};
         repository.saveAll(users);
     }
